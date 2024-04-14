@@ -132,7 +132,7 @@ footer {
   height: 64px;
   top: 760px;
   left: 116px;
-  border-radius: 0px, 0px, 10px, 10px;
+  border-radius: 0px 0px 10px 10px;
   gap: 24px;
 }
 
@@ -169,11 +169,16 @@ content{
 }
 
 .personal-photo{
+  display: flex;
+  overflow: hidden;
   width: 317px;
   height: 317px;
   top: 44px;
   left: 116px;
-  border-radius: 10px, 10px, 0px, 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 
